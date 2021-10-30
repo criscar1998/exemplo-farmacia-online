@@ -12,6 +12,8 @@
 - [ ] Sistema Administrativo
 - [ ] Integração com Meios de Pagamentos
 
+<a href="https://farmaciaonline.ddns.net/" target="_blank">🔗 Clique aqui para testar Demo Online</a>
+
 ### Pré-requisitos
 
 ✔️Servidor com Apache instalado ( Roda em hospedagem Compartilhada normalmente )
