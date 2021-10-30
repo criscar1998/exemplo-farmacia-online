@@ -5,7 +5,6 @@
 ### Recursos Inplantados até o momento
 
 - [x] Cadastro de usuário
-- [x] Cadastro de cliente
 - [x] Listar Produtos
 - [x] Carrinho de Compras
 - [x] Realizar Pedido
