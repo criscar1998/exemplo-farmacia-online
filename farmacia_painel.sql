@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Tempo de geração: 30-Out-2021 às 14:40
+-- Tempo de geração: 31-Out-2021 às 20:07
 -- Versão do servidor: 8.0.26
 -- versão do PHP: 7.3.30
 
@@ -40,6 +40,16 @@ CREATE TABLE `painel_pedidos` (
   `pago` tinyint(1) NOT NULL DEFAULT '0',
   `frete` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Extraindo dados da tabela `painel_pedidos`
+--
+
+INSERT INTO `painel_pedidos` (`id`, `produto`, `quantidade`, `ordem`, `email`, `total`, `metodo`, `data`, `pago`, `frete`) VALUES
+(251, '5', 2, 'K6XSkBR7', 'cristiansilva9899@gmail.com', 25.9, 3, '2021-10-30 15:46:16', 2, 3.55),
+(252, '5', 1, 'UTnp0Gjq', 'cristiansilva9899@gmail.com', 12.95, 1, '2021-10-31 19:58:55', 1, 3.55),
+(253, '6', 2, 'UTnp0Gjq', 'cristiansilva9899@gmail.com', 43.9, 1, '2021-10-31 19:58:55', 1, 3.55),
+(254, '6', 1, 'LSH7mWdV', 'cristiansilva9899@gmail.com', 21.95, 2, '2021-10-31 20:04:51', 0, 3.55);
 
 -- --------------------------------------------------------
 
@@ -85,6 +95,13 @@ CREATE TABLE `painel_usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
+-- Extraindo dados da tabela `painel_usuarios`
+--
+
+INSERT INTO `painel_usuarios` (`id`, `nome`, `email`, `senha`, `logradouro`, `cep`, `bairro`, `uf`, `cidade`) VALUES
+(15, 'usuario teste', 'demo@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'av sapucaia,256', '00000000', 'centro', 'RS', 'Sapucaia do Sul');
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -114,7 +131,7 @@ ALTER TABLE `painel_usuarios`
 -- AUTO_INCREMENT de tabela `painel_pedidos`
 --
 ALTER TABLE `painel_pedidos`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=251;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=255;
 
 --
 -- AUTO_INCREMENT de tabela `painel_remedios`
@@ -126,7 +143,7 @@ ALTER TABLE `painel_remedios`
 -- AUTO_INCREMENT de tabela `painel_usuarios`
 --
 ALTER TABLE `painel_usuarios`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
