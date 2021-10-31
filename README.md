@@ -34,9 +34,9 @@
 
 3 - Descompacte o Arquivo
 
-4 - Agora crie um usuario e um banco de dados no mysql ou MariaDB e sua o arquivo painel_farmacia.sql
+4 - Agora crie um usuario e um banco de dados no mysql ou MariaDB e suba o arquivo painel_farmacia.sql
 
-5 - Abra o arquivo config.php e coloque as informações de usuario, nome do banco e senha.
+5 - Abra o arquivo config.php e coloque as informações de host, usuario, nome do banco e senha.
 
 6 - Instalação Completa!
 
