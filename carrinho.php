@@ -79,11 +79,6 @@ $a= rtrim($a, ',');
           <span style="display:none" class="product-line-price"><?=$go['valor']?>
           </span>  
         </div>
-        <div class="remove-item pt-4">
-          <button class="remove-product btn-light">
-            Remover
-          </button>
-        </div>
       </div>
 
   <?php  } ?>
