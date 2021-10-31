@@ -14,6 +14,12 @@
 
 <a href="https://farmaciaonline.ddns.net/" target="_blank">🔗 Clique aqui para testar Demo Online</a>
 
+LOGIN: demo@gmail.com
+
+SENHA: 123456
+
+Opção Cadastro está liberado!
+
 ### Pré-requisitos
 
 ✔️Servidor com Apache instalado ( Roda em hospedagem Compartilhada normalmente )
